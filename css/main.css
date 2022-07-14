@@ -1,0 +1,280 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+h1,h2,h3,h4,h5{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    padding: 73px 0;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+.header{
+   
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 126, 54, 0.048) 100%), url('../img/image1.jpg') no-repeat center top;
+    height: 100vh;
+    text-align: center;
+    padding: 90px 0 80px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.logo{
+    display: inline-flex;
+    align-items: center;
+    
+}
+.logo__text{
+    
+    margin-left: 6px;
+}
+
+.offer{
+    margin-top: 142px;
+}
+.offer__city{
+    
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+}
+.offer_title{
+    
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    
+    padding-top: 24px;
+}
+.offer__text2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    
+    padding-top: 4px;
+    
+
+}
+.offer__btn{
+    display: block;
+    font-weight: 800;
+    font-size: 16px;
+    width: 250px;
+    
+
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 18px 52px;
+    
+    background: #FF7E36;
+    border-radius: 119px;
+ 
+    margin-left: 442px;
+    margin-top: 24px; 
+    
+     
+}
+.offer__btn:hover {
+    background: #ff8949
+}
+.arrow-down{
+    display: inline-block;
+    
+    margin-top: 286px;
+}
+.skytree{
+    padding-top: 146px;
+}
+h2{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    margin-bottom: 100px;
+}
+.sky{
+    display: flex;
+    margin-bottom: 90px;
+}
+.sky__content{
+    
+    
+    padding: 112px 73px;
+    background: #EAF4F7;
+    
+}
+.sky__number{
+   
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #789AA0;
+    
+}
+.sky__title{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #304041;
+    margin-top: 20px;
+   
+}
+.sky__text{
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    margin-top: 15px;
+    color: #304041;
+    
+}
+
+.sky__arrow-right{
+    display: block;
+    margin-top: 53px;
+    
+}
+.sky__tree{
+    filter: drop-shadow(5px 0px 25px rgba(54, 207, 255, 0.24));
+    border-radius: 0px 5px 5px 0px;
+}
+.btn2{
+    border: 1px solid #FF7E36;
+    border-radius: 94px;
+    padding: 18px 49px;
+
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    
+    letter-spacing: 0.05em;
+
+    color: #FF7E36;
+    width: 341px;
+    
+    
+    display: block;
+    margin-left: 404px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #304041;
+    text-align: center;
+}
+.bridge{
+    background:  #fff url('../img/photo-prague.jpg') no-repeat right center / 50%  ;      
+   
+    
+    padding: 163px 0;
+}
+li {
+    list-style-type: none;    
+}
+
+.bridge__item{
+    
+   
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    
+    color: #304041;
+    
+     
+   
+}
+.bridge-list{
+    width: 407px;
+}
+
+.ul{
+    padding: 0;
+    margin: 0;
+}
+.bridge-list__item:not(:last-child){
+    margin-bottom: 57px;
+
+}
+
+.bridge-list__item:before{
+    content: '';
+    display: block;
+    width: 64px;
+    height: 7px;
+
+    background: #4EB1B6;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    
+    
+}
+.footer{
+    padding: 75px 0 147px;
+}
+.infor{
+    display: flex;
+}
+
+.infor__item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #5C7677;
+}
+.infor__item:last-child{
+    
+    margin-left: 60px;
+}
